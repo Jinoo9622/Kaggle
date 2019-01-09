@@ -1,0 +1,29 @@
+CH 3
+Tensorflow Speech Recognition Competition
+
+CNN(Convolutional Neural Network) - 입력된 이미지에서 다시 한번 특징을 추출하기 위해 마스크(필터, 윈도, or 커널)를 도입하는 기법이다.
+
+배깅 앙상블(Bagging Ensemble)
+- 앙상블 기법은 동일한 학습 알고리즘을 사용해서 여러 모델을 학습하는 개념 
+    ↔ Stacking - 서로 다른 모델을 결합하여 새로운 모델을 만들어내는 방법
+- Bagging: 샘플을 여러번 뽑아 각 모델을 학습시켜 결과를 집계하는 방법.
+
+파이토치 - 파이썬 기반의 오픈 소스 머신러닝 라이브러리로 페이스북 인공지능 연구집단에 의해 개발
+         - 간결, 구현이 빠름, Define-by-Run(↔ 텐서플로우 : Define-and-Run)
+         
+샘플링 빈도
+
+RNN(Recurrent Neural Network) - 일반적인 신경망은 각각의 입출력이 서로 독립적이라 가정하지만 RNN은 순서가 있는 정보를 입력데이터로 사용한다는 점이 특징.
+
+VGGNet - Image Recognition Model 
+ResNet
+Squeeze-and-Excitation Net(SENet)
+
+random_seed
+
+지도학습(Supervised) - 레이블이 존재하는 데이터 (x, y)를 기반으로 모델을 학습하는 방법
+비지도학습(Unsupervised) - 레이블에 없는 변수 z만을 학습에 사용하는 것.
+클러스터링(Clustering) - 유사성 등의 개념에 기초하여 데이터를 몇몇의 그룹으로 분류하는 수법의 총칭
+
+준 지도학습(Semi-Supervised) - 지도학습에서 얻은 모델과 비지도학습에 사용하는 데이터의 이점을 합친 학습 방법
+PCA(Principal Component Analysis, 주성분 분석)
